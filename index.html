@@ -10,25 +10,32 @@
 <body>
     <header>
         <h1>Cool Meme Generator</h1>
-        <p class="instructions">Fill out the form below to start creating memes!</p>
-        <div class="meme-generator">
-            <form action="" id="meme">
+        <p class="instructions">Fill out the form below to start creating cool memes!</p>
+        <div class="meme-generator-container">
+            <form action="" id="meme-form">
                 <label for="image-url">Image URL</label>
                 <input type="url" name="image-url" id="image-url" placeholder="What's the URL of your meme image?">
+                <br>
                 <br>
                 <label for="text-top">Text on Top</label>
                 <input type="text" name="text-top" id="text-top" placeholder="(Optional) What text do you want at the top meme?">
                 <br>
+                <br>
                 <label for="text-bottom">Text on Bottom</label>
                 <input type="text" name="text-bottom" id="text-bottom" placeholder="(Optional) What text do you want at the bottom of the meme?">
                 <br>
-                <button>Add meme</button>
+                <br>
+                <div class="button-container">
+                    <button>Add meme</button>
+                </div>
+                <br>
             </form>
         </div>
     </header>
 
+    <section class="images-container">
 
-    <section></section>
+    </section>
     <script src="app.js"></script>
 </body>
 </html>
